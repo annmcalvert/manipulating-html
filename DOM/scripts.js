@@ -11,7 +11,6 @@ let nameDiv = document.getElementById('nameDiv');
 let friends = ['Dennis', 'Steve', 'Everett', 'Anna', 'Ashley', 'Melissa', 'Pracilla', 'Rainey', 'Polly', 'Ripley'];
 let btn6 = document.getElementById('btn6');
 let list = document.getElementById('list');
-
 btn1.appendChild(btnText);
 div1.appendChild(btn1);
 nameP.appendChild(name);
@@ -56,4 +55,3 @@ btn6.addEventListener('click', function () {
         document.body.appendChild(li);
     };
 });
-
