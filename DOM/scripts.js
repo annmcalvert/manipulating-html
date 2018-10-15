@@ -31,3 +31,12 @@ para.addEventListener('click', function() {
     (this).style.color = randomColor;
 });
 
+//5. button that shows name
+let nameBtn = document.getElementById('nameBtn');
+let nameP = document.createElement('p');
+let name = document.createTextNode('Ann Calvert');
+nameP.appendChild(name);
+let nameDiv = document.getElementById('nameDiv');
+nameBtn.addEventListener('click', function() {
+    nameDiv.appendChild(nameP);
+})
